@@ -1,10 +1,8 @@
 import { combineReducers } from "redux";
-import inventoryReducer from "./inventoryReducer";
-import redirectionReducer from "./redirectionReducer";
+import itemReducer from "./itemReducer";
 
 const rootReducer = combineReducers({
-  inventoryReducer,
-  redirectionReducer,
+  itemReducer,
 });
 
 export default rootReducer;
